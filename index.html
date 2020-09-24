@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <div class="container">
+          <form method="POST" action="">
+      
+            <div class="step step-1 active">
+                <h1>Student Details</h1>
+<!-- ----------------------------------------------------------------------------------------- -->
+<div class="shade">
+                <h3>Personal Details</h3>
+                <hr>
+
+
+              <div class="flex__wrap">
+                <div class="form-group">
+                    <label for="fname">First Name *</label>
+                    <input type="text" id="fname" name="fname" placeholder="First Name">
+                  </div>
+                  <div class="form-group">
+                    <label for="mname">Middle Name *</label>
+                    <input type="text" id="mname" name="mname" placeholder="Middle Name">
+                  </div>
+                  <div class="form-group">
+                    <label for="lname">Last Name *</label>
+                    <input type="text" id="lname" name="lname" placeholder="Last Name">
+                  </div>
+              </div>
+
+              
+              <div class="flex__wrap">
+                <div class="form-group">
+                    <label for="StuID">Student ID</label>
+                    <input type="text" id="StuID" name="StuID" placeholder="Student ID">
+                  </div>
+                  <div class="form-group">
+                    <label for="batch">Batch</label>
+                    <select name="batch" id="batch" >
+                        <option default>Select</option>
+                        <option value="value2">Value2</option>
+                        <option value="value3">Value3</option>
+
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="dob">Date Of Birth*</label>
+                    <input type="date" id="dob" name="dob" placeholder="Date Of Birth" onfocus="(this.type = 'date')" min="" max="">
+                  </div>
+              </div>
+
+              
+              <div class="flex__wrap">
+                <div class="form-group">
+                    <label for="BirthPlace">Birth Place</label>
+                    <input type="text" id="BirthPlace" name="BirthPlace" placeholder="Birth Place">
+                  </div>
+                  <div class="form-group">
+                    <label for="Nathionality">Nathionality *</label>
+                    <select name="Nathionality" id="Nathionality" >
+                        <option default=''>Select Nathionality</option>
+                        <option value="value2">Indian</option>
+                        <option value="value3">USA</option>
+                        <option value="value3">Africa</option>
+
+
+                    </select> 
+                  </div>
+                  <div class="form-group">
+                    <label for="Language">Language</label>
+                    <input type="text" id="Language" name="Language" placeholder="Language">
+                  </div>
+              </div>
+
+
+              <div class="flex__wrap">
+                <div class="form-group">
+                    <label for="Religion">Religion</label>
+                    <input type="text" id="Religion" name="Religion" placeholder="Religion">
+                  </div>
+                  <div class="form-group">
+                    <label for="BloodGroup">Blood Group</label>
+                    <select name="BloodGroup" id="BloodGroup" >
+                        <option default=''>Unknown</option>
+                        <option value="value2">A+</option>
+                        <option value="value3">B+</option>
+                        <option value="value3">O+</option>
+                        <option value="value4">AB+</option>
+
+                    </select> 
+                  </div>
+                  <div class="form-group">
+                    <label for="Category">Student Category</label>
+                    <select name="Category" id="Category" >
+                        <option default=''>Select</option>
+                        <option value="value2">General</option>
+                        <option value="value3">Special</option>
+
+                    </select> 
+                  </div>
+              </div>
+
+              
+              <div class="">
+                <div style="margin: 10px;">
+                    <label for="fname" >Gender</label><br>
+                    <input type="radio" value="m" style="margin: 8px 0;" />
+                    Male
+                    <input type="radio" value="f" style="margin: 8px 0;" />
+                   Female
+
+                  </div>
+
+              </div>
+
+ </div>
+<!-- ------------------------------------------------------------- -->
+<div class="shade">
+<h3>Contact Details</h3>
+<hr>
+
+<div class="flex__wrap">
+    <div class="form-group">
+        <label for="ad1">Address Line 1</label>
+        <input type="text" id="ad1" name="ad1" placeholder="Address Line 1">
+      </div>
+      <div class="form-group">
+        <label for="ad2">Address Line 2</label>
+        <input type="text" id="ad2" name="ad2" placeholder="Address Line 2">
+      </div>
+      <div class="form-group">
+        <label for="City">City</label>
+        <input type="text" id="City" name="City" placeholder="City">
+      </div>
+  </div>
+  <div class="flex__wrap">
+    <div class="form-group">
+        <label for="State">State</label>
+        <input type="text" id="State" name="State" placeholder="State">
+      </div>
+      <div class="form-group">
+        <label for="Pin">Pin Code</label>
+        <input type="text" id="Pin" name="Pin" placeholder="Pin Code">
+      </div>
+      <div class="form-group">
+        <label for="Country">Country</label>
+        <select name="Country" id="Country" >
+            <option default=''>Select Country</option>
+            <option value="value2">India</option>
+            <option value="value3">USA</option>
+            <option value="value3">Africa</option>
+     
+
+        </select> 
+        
+      </div>
+  </div>
+  <div class="flex__wrap">
+    <div class="form-group">
+        <label for="phone1">Phone Number*</label>
+        <input type="text" id="phone1" name="phone1" placeholder="Phone Number">
+      </div>
+      <div class="form-group">
+        <label for="phone2">Phone 2</label>
+        <input type="text" id="phone2" name="phone2" placeholder="Phone Number (Optional)">
+      </div>
+      <div class="form-group">
+        <label for="Email">Email*</label>
+        <input type="email" id="Email" name="Email" placeholder="Email address">
+      </div>
+  </div>
+</div>
+<div class="shade">
+  <h3>Upload Photo</h3>
+  <hr>
+
+  <div class="uploadfile">
+     
+      <input type="file" name="photo" style="margin: 8px 10px;"/>
+     <p>Maximum File size is 1MB. Allowed file types are png,jpeg,jpg</p>
+ 
+  </div>
+</div>
+
+              <button type="button" class="next-btn">Next</button>
+            </div>
+            
+
+      
+            <!-- First Form End  -->
+            <div class="step step-2">
+                <h1>Guardian Details</h1>
+                <div class="shade">
+                <h3>Personal Details</h3>
+                <hr>
+               
+
+              <div class="flex__wrap">
+                <div class="form-group">
+                    <label for="fname">First Name *</label>
+                    <input type="text" id="fname" name="fname" placeholder="First Name">
+                  </div>
+                  <div class="form-group">
+                    <label for="lname">Last Name *</label>
+                    <input type="text" id="lname" name="lname" placeholder="Last Name">
+                  </div>
+                  <div class="form-group">
+                    <label for="Country">Relation*</label>
+                    <select name="Relation" id="Relation" >
+                        <option default=''>Select Relation</option>
+                        <option value="value2">Son</option>
+                        <option value="value3">Daughter</option>
+
+                 
+            
+                    </select> 
+                    
+                  </div>
+
+              </div>
+
+              <div class="flex__wrap">
+
+                <div class="form-group">
+                    <label for="dob">Date Of Birth*</label>
+                    <input type="date" id="dob" name="dob" placeholder="Date Of Birth" onfocus="(this.type = 'date')" min="" max="">
+                  </div>
+                <div class="form-group">
+                    <label for="Education">Education</label>
+                    <input type="text" id="Education" name="Education" placeholder="Education">
+                  </div>
+                  <div class="form-group">
+                    <label for="Occupation">Occupation</label>
+                    <input type="text" id="Occupation" name="Occupation" placeholder="Last Name">
+                  </div>
+     
+
+              </div>
+              <div class="flex__wrap">
+
+                <div class="form-group">
+                    <label for="Income">Income</label>
+                    <input type="text" id="Income" name="Income" placeholder="Income">
+                  </div>
+                  <div class="form-group">
+                    
+                  </div>       <div class="form-group">
+                   
+                  </div>
+
+              
+     
+
+              </div>
+            </div>
+
+            <div class="shade">
+              <h3>Contact Details</h3>
+              <hr>
+
+<div class="flex__wrap">
+    <div class="form-group">
+        <label for="ad1">Address Line 1</label>
+        <input type="text" id="ad1" name="ad1" placeholder="Address Line 1">
+      </div>
+      <div class="form-group">
+        <label for="ad2">Address Line 2</label>
+        <input type="text" id="ad2" name="ad2" placeholder="Address Line 2">
+      </div>
+      <div class="form-group">
+        <label for="City">City</label>
+        <input type="text" id="City" name="City" placeholder="City">
+      </div>
+  </div>
+  <div class="flex__wrap">
+    <div class="form-group">
+        <label for="State">State</label>
+        <input type="text" id="State" name="State" placeholder="State">
+      </div>
+      <div class="form-group">
+        <label for="Pin">Pin Code</label>
+        <input type="text" id="Pin" name="Pin" placeholder="Pin Code">
+      </div>
+      <div class="form-group">
+        <label for="Country">Country</label>
+        <select name="Country" id="Country" >
+            <option default=''>Select Country</option>
+            <option value="value2">India</option>
+            <option value="value3">USA</option>
+            <option value="value3">Africa</option>
+     
+
+        </select> 
+        
+      </div>
+  </div>
+  <div class="flex__wrap">
+    <div class="form-group">
+        <label for="phone1">Phone Number*</label>
+        <input type="text" id="phone1" name="phone1" placeholder="Phone Number">
+      </div>
+      <div class="form-group">
+        <label for="phone2">Phone 2</label>
+        <input type="text" id="phone2" name="phone2" placeholder="Phone Number (Optional)">
+      </div>
+      <div class="form-group">
+        <label for="Email">Email*</label>
+        <input type="email" id="Email" name="Email" placeholder="Email address">
+      </div>
+  </div>
+  <span style="margin: 10px;">
+  <input type="checkbox" name="check"/>
+  <span>Don't create Parent User</span>
+</span>
+</div>
+    <div>
+              <button type="button" class="previous-btn">Prev</button>
+              <button type="button" class="next-btn">Next</button>
+            </div>
+            </div>
+      
+            <div class="step step-3">
+                <h1>Previous Details</h1>
+                <div class="shade">
+                <h3>Institution Details</h3>
+                <hr>
+
+                                <div class="flex__wrap">
+                    <div class="form-group">
+                        <label for="Institution">Institution*</label>
+                        <input type="text" id="Institution" name="Institution" placeholder="Institution">
+                      </div>
+                      <div class="form-group">
+                        <label for="Year">Year</label>
+                        <select name="Year" id="Year" >
+                            <option default=''>Select Year</option>
+                            <option value="value2">2000</option>
+                            <option value="value3">2001</option>
+                            <option value="value3">2002</option>
+                            <option value="value3">2003</option>
+
+    
+                     
+                
+                        </select> 
+                        
+                      </div>
+                      <div class="form-group">
+                        <label for="Course">Course</label>
+                        <input type="text" id="Course" name="Course" placeholder="Course">
+                      </div>
+
+    
+                  </div>
+                  <div class="flex__wrap">
+                    <div class="form-group">
+                        <label for="Marks">Total Marks</label>
+                        <input type="text" id="Marks" name="Marks" placeholder="Total Marks">
+                      </div>
+                      <div class="form-group">
+                 
+                      </div>                    
+                      <div class="form-group">
+                       
+                      </div>
+                    </div>
+
+
+
+    
+                  </div>
+    
+         
+              <button type="button" class="previous-btn">Prev</button>
+              <button type="button" class="next-btn">Next</button>
+
+         
+            </div>
+
+            <div class="step step-4">
+                <h1>Student Documents</h1>
+                <div class="shade">
+                <div class="form-group">
+                    <label>Upload Document</label>
+                   
+                    <input type="file" name="docs" style="margin: 8px 10px;"/>
+                </div>
+                <div class="form-group">
+                 
+                </div>
+                <div class="form-group">
+                
+                </div>
+            </div>
+                <button type="button" class="previous-btn">Prev</button>
+                <button type="submit" class="submit-btn">Submit</button>
+              </div>
+      
+          </form>
+        </div>
+      </section>
+      <script src="script.js"></script>
+</body>
+</html>
